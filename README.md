@@ -12,6 +12,8 @@ This is a supplemental code accompanying Ray Tracing Gems II, Chapter 14: The Re
 * `-scene [path]` specifies the file path to a GLTF model
 * `-scenePath [path]` optionally specifies the root folder where scene data files can be found
 
+Note: EXE File must be called from root project folder (or use run.bat!), because the renderer assumes a known folder structure
+
 ## Licenses and Open Source Software
 
 The code uses the following dependencies:
