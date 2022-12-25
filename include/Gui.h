@@ -42,7 +42,8 @@ public:
 	bool WantCaptureMouse();
 
 	void Text(const char* text);
-	void Text(const char* text, double x);
+	void Text (const char* text, double x);
+	void Text (const char* text, double x, double y);
 	bool SliderFloat(const char* label, float* v, float min, float max);
 	bool SliderInt(const char* label, int* v, int min, int max);
 	bool DragFloat(const char* label, float* v, float min, float max);
